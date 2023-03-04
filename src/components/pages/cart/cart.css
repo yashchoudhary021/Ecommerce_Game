@@ -1,0 +1,47 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.cartitem{
+    margin-bottom: 140px;
+    margin-left: 100px;
+}
+.cart-items{
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0;
+     
+}
+.cart-items img{
+    width: 200px;
+}
+ .cart-items{
+    width: 100%;
+height: auto;
+display: grid;
+grid-template-rows: 400px;
+place-items: center;
+margin-bottom: 150px;
+ }
+
+ .countHandler button {
+    padding: 3px;
+    width: 30px;
+ }
+.countHandler input{
+    text-align: center;
+    height: 27px;
+    width: 90px;
+}
